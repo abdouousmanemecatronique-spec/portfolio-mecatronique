@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maman Lawali ABDOU OUSMANE | Ingénieur Mécatronique - Maintenance 4.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Maman Lawali ABDOU OUSMANE</h1>
+        <p class="subtitle">Élève Ingénieur en Mécatronique (ENSA Tétouan) • Maintenance 4.0 (Prédictive & Prescriptive)</p>
+        <p class="bio">En recherche d'un Stage PFE orienté maintenance industrielle 4.0, diagnostic de systèmes électromécaniques, automatisme (API/SCADA) et fiabilité des équipements.</p>
+        <div class="links">
+            <a href="assets/Cv_PFE_Mecatronique.pdf" target="_blank" class="btn">Télécharger CV (PDF)</a>
+            <a href="https://www.linkedin.com/in/maman-lawali-abdou-ousmane-076a48415" target="_blank">LinkedIn</a>
+            <a href="mailto:abdou.ousmane.mecatronique@gmail.com">abdou.ousmane.mecatronique@gmail.com</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="projets">
+            <h2>Expérience PFA & Projets d'Ingénierie</h2>
+
+            <!-- PROJET 1 : STAGE PFA -->
+            <article class="project-card">
+                <div class="project-media">
+                    <img src="assets/pfa-bondgraph.png" alt="Modélisation Bond Graph et diagnostic Simulink">
+                </div>
+                <div class="project-info">
+                    <h3>Stage PFA : Modélisation & Diagnostic de Systèmes Électromécaniques</h3>
+                    <div class="tags">
+                        <span>Bond Graph</span>
+                        <span>MATLAB/Simulink</span>
+                        <span>Maintenance Prédictive</span>
+                        <span>Condition Monitoring</span>
+                    </div>
+                    <p><strong>Contexte :</strong> Smart Automation Technologies / ENSA Tétouan (Juil. – Sept. 2026).</p>
+                    <p><strong>Contribution :</strong> Modélisation multi-physique d'une machine tournante (moteur CC) par Bond Graph et implémentation sous MATLAB/Simulink pour l'analyse des régimes transitoires et la simulation de défauts.</p>
+                    <p><strong>Résultat :</strong> Élaboration d'un système de diagnostic par génération de résidus et matrice de signature de défauts permettant la détection et l'isolation précoces d'anomalies.</p>
+                </div>
+            </article>
+
+           <!-- PROJET 2 : ADAS (ACC & LKA) -->
+            <article class="project-card">
+                <div class="project-media">
+                    <img src="assets/lka-adas.png" alt="Architecture mécatronique du système Lane Keeping Assist (LKA)">
+                </div>
+                <div class="project-info">
+                    <h3>Systèmes ADAS : Régulation Adaptative (ACC) & Maintien dans la Voie (LKA)</h3>
+                    <div class="tags">
+                        <span>Architecture Mécatronique</span>
+                        <span>ECU / EPS</span>
+                        <span>Automatique</span>
+                        <span>Capteurs & Vision</span>
+                    </div>
+                    <p><strong>Problématique :</strong> Assurer le contrôle longitudinal de la vitesse (ACC) et prévenir les sorties de voie involontaires (LKA) tout en garantissant la priorité absolue au conducteur.</p>
+                    <p><strong>Contribution :</strong> Étude et modélisation de la chaîne fonctionnelle complète Perception–Décision–Action : fusion des données capteurs (caméra, vitesse, angle volant, gyroscope), calcul du <em>Time to Lane Crossing</em> (TLC), gestion des conditions d'activation (clignotants, seuils de vitesse) et génération de consigne de couple vers la direction assistée électrique (EPS).</p>
+                    <p><strong>Résultat :</strong> Validation de la logique de correction de trajectoire et des mécanismes de sécurité (<em>manual override</em> et gestion des limites de visibilité).</p>
+                </div>
+            </article>
+
+            <!-- PROJET 3 : SÉCURITÉ ROUTIÈRE EMBARQUÉE -->
+            <article class="project-card">
+                <div class="project-media">
+                    <img src="assets/detection-fatigue.png" alt="Système embarqué de détection de fatigue">
+                </div>
+                <div class="project-info">
+                    <h3>Système Intelligent Embarqué de Détection de Fatigue</h3>
+                    <div class="tags">
+                        <span>ESP32-S3</span>
+                        <span>Capteurs IoT</span>
+                        <span>Traitement du Signal</span>
+                        <span>Proteus</span>
+                    </div>
+                    <p><strong>Problématique :</strong> Prévenir les risques d'accidents liés à la somnolence au volant via une surveillance embarquée non intrusive.</p>
+                    <p><strong>Contribution :</strong> Conception de l'architecture matérielle, conditionnement des signaux capteurs et programmation embarquée.</p>
+                    <p><strong>Résultat :</strong> Prototype fonctionnel d'alerte temps réel dédié à la sécurité routière.</p>
+                </div>
+            </article>
+
+           <!-- PROJET 4 : SIMULATION & CNC -->
+            <article class="project-card">
+                <div class="project-media">
+                    <img src="assets/cnc-simulink.jpg" alt="Simulation d'usinage CNC et programmation paramétrique en Code G">
+                </div>
+                <div class="project-info">
+                    <h3>Simulation & Commande Numérique (CNC)</h3>
+                    <div class="tags">
+                        <span>CNC Simulator</span>
+                        <span>Code G Paramétrique</span>
+                        <span>MATLAB/Simulink</span>
+                        <span>CATIA V5</span>
+                    </div>
+                    <p><strong>Problématique :</strong> Valider les trajectoires d'usinage, les paramètres de coupe et les architectures numériques avant mise en production.</p>
+                    <p><strong>Contribution :</strong> Conception CAO sous CATIA V5, modélisation sous MATLAB/Simulink et développement de programmes d'usinage en Code G paramétrique (variables, boucles conditionnelles <code>IF/GOTO</code>, interpolation circulaire <code>G2</code> et compensation d'outil <code>G41</code>) sur simulateur CNC.</p>
+                    <p><strong>Résultat :</strong> Validation complète des cycles d'usinage en 3D et prévention des collisions avant fabrication.</p>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="skills">
+            <h2>Compétences Techniques & Méthodologiques</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Modélisation & Simulation</h3>
+                    <ul>
+                        <li>MATLAB / Simulink & Simscape</li>
+                        <li>Approche Bond Graph</li>
+                        <li>CATIA V5 (CAO) & CNC Simulator</li>
+                        <li>Proteus (Simulation électronique)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Automatique & Embarqué</h3>
+                    <ul>
+                        <li>Diagnostic & Tolérance aux fautes</li>
+                        <li>Régulation & Contrôle temps réel</li>
+                        <li>Microcontrôleurs (ESP32-S3, PIC)</li>
+                        <li>Programmation C / C++ embarqué & Code G</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Qualité & Maintenance 4.0</h3>
+                    <ul>
+                        <li>Management de la qualité (Norme ISO 9001)</li>
+                        <li>Outils qualité (AMDEC, Ishikawa, 5S, Pareto)</li>
+                        <li>Maîtrise Statistique des Procédés (MSP / SPC)</li>
+                        <li>Maintenance prédictive & Amélioration continue (Lean / PDCA)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="formation">
+            <h2>Formation</h2>
+            <div class="skill-box">
+                <h4>2021 – Présent | Cycle d'Ingénieur en Mécatronique (GM3) — ENSA Tétouan, Maroc</h4>
+                <p>Spécialisation : Systèmes automatisés, modélisation de systèmes complexes, informatique industrielle, supervision SCADA et maintenance 4.0.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Maman Lawali ABDOU OUSMANE • Tétouan, Maroc • abdou.ousmane.mecatronique@gmail.com</p>
+    </footer>
+
+</body>
+</html>
