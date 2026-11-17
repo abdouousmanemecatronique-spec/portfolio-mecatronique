@@ -3,150 +3,353 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maman Lawali ABDOU OUSMANE | Ingénieur Mécatronique - Maintenance 4.0</title>
+    <title>Maman Lawali ABDOU OUSMANE | Ingénieur Mécatronique — Maintenance, Production & Qualité</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Maman Lawali ABDOU OUSMANE</h1>
-        <p class="subtitle">Élève Ingénieur en Mécatronique (ENSA Tétouan) • Maintenance 4.0 (Prédictive & Prescriptive)</p>
-        <p class="bio">En recherche d'un Stage PFE orienté maintenance industrielle 4.0, diagnostic de systèmes électromécaniques, automatisme (API/SCADA) et fiabilité des équipements.</p>
-        <div class="links">
-            <a href="assets/Cv_PFE_Mecatronique.pdf" target="_blank" class="btn">Télécharger CV (PDF)</a>
-            <a href="https://www.linkedin.com/in/maman-lawali-abdou-ousmane-076a48415" target="_blank">LinkedIn</a>
-            <a href="mailto:abdou.ousmane.mecatronique@gmail.com">abdou.ousmane.mecatronique@gmail.com</a>
+    <!-- NAVIGATION STICKY -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#accueil" class="nav-logo">ML<span>.</span>ABDOU OUSMANE</a>
+            <ul class="nav-menu">
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#certificats">Certificats</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- EN-TÊTE / HERO -->
+    <header id="accueil" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-badge">Disponible pour un Stage PFE • Maintenance, Production &amp; Qualité</span>
+                <h1>Maman Lawali ABDOU OUSMANE</h1>
+                <p class="subtitle">Élève Ingénieur en Mécatronique (ENSA Tétouan) • Maintenance 4.0, Production &amp; Qualité Industrielle</p>
+                <p class="bio">
+                    Ingénieur mécatronicien polyvalent orienté performance industrielle. J'interviens sur la <strong>maintenance prédictive et le diagnostic</strong> des systèmes électromécaniques, l'<strong>optimisation des flux de production</strong> (automatisation, supervision IoT) et l'<strong>amélioration continue de la qualité</strong> pour garantir la fiabilité et la disponibilité des équipements.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="assets/Cv_PFE_Mecatronique (1).pdf" target="_blank" class="btn btn-primary">Télécharger mon CV</a>
+                    <a href="https://www.linkedin.com/in/maman-lawali-abdou-ousmane-076a48415" target="_blank" class="btn btn-outline">LinkedIn</a>
+                    <a href="mailto:abdou.ousmane.mecatronique@gmail.com" class="btn btn-outline">Email</a>
+                    <a href="https://wa.me/212614808406?text=Bonjour%20Maman%20Lawali%2C%20j'ai%20consult%C3%A9%20votre%20portfolio%20d'ing%C3%A9nierie%20m%C3%A9catronique." target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="hero-photo-wrapper">
+                <div class="hero-photo-frame">
+                    <img src="assets/photo-profil.jpg" alt="Portrait de Maman Lawali ABDOU OUSMANE">
+                </div>
+            </div>
         </div>
     </header>
 
-    <main>
-        <section id="projets">
-            <h2>Expérience PFA & Projets d'Ingénierie</h2>
+    <main class="container">
 
-            <!-- PROJET 1 : STAGE PFA -->
-            <article class="project-card">
-                <div class="project-media">
-                    <img src="assets/pfa-bondgraph.png" alt="Modélisation Bond Graph et diagnostic Simulink">
-                </div>
-                <div class="project-info">
-                    <h3>Stage PFA : Modélisation & Diagnostic de Systèmes Électromécaniques</h3>
-                    <div class="tags">
-                        <span>Bond Graph</span>
-                        <span>MATLAB/Simulink</span>
-                        <span>Maintenance Prédictive</span>
-                        <span>Condition Monitoring</span>
-                    </div>
-                    <p><strong>Contexte :</strong> Smart Automation Technologies / ENSA Tétouan (Juil. – Sept. 2026).</p>
-                    <p><strong>Contribution :</strong> Modélisation multi-physique d'une machine tournante (moteur CC) par Bond Graph et implémentation sous MATLAB/Simulink pour l'analyse des régimes transitoires et la simulation de défauts.</p>
-                    <p><strong>Résultat :</strong> Élaboration d'un système de diagnostic par génération de résidus et matrice de signature de défauts permettant la détection et l'isolation précoces d'anomalies.</p>
-                </div>
-            </article>
+        <!-- =========================================================
+             SECTION 1 : COMPÉTENCES CLÉS (TECHNIQUES & TRANSVERSALES)
+             ========================================================= -->
+        <section id="competences" class="section">
+            <div class="section-header">
+                <span class="section-tag tag-blue">Savoir-Faire &amp; Savoir-Être</span>
+                <h2>Domaines d'Expertise</h2>
+            </div>
 
-           <!-- PROJET 2 : ADAS (ACC & LKA) -->
-            <article class="project-card">
-                <div class="project-media">
-                    <img src="assets/lka-adas.png" alt="Architecture mécatronique du système Lane Keeping Assist (LKA)">
-                </div>
-                <div class="project-info">
-                    <h3>Systèmes ADAS : Régulation Adaptative (ACC) & Maintien dans la Voie (LKA)</h3>
-                    <div class="tags">
-                        <span>Architecture Mécatronique</span>
-                        <span>ECU / EPS</span>
-                        <span>Automatique</span>
-                        <span>Capteurs & Vision</span>
-                    </div>
-                    <p><strong>Problématique :</strong> Assurer le contrôle longitudinal de la vitesse (ACC) et prévenir les sorties de voie involontaires (LKA) tout en garantissant la priorité absolue au conducteur.</p>
-                    <p><strong>Contribution :</strong> Étude et modélisation de la chaîne fonctionnelle complète Perception–Décision–Action : fusion des données capteurs (caméra, vitesse, angle volant, gyroscope), calcul du <em>Time to Lane Crossing</em> (TLC), gestion des conditions d'activation (clignotants, seuils de vitesse) et génération de consigne de couple vers la direction assistée électrique (EPS).</p>
-                    <p><strong>Résultat :</strong> Validation de la logique de correction de trajectoire et des mécanismes de sécurité (<em>manual override</em> et gestion des limites de visibilité).</p>
-                </div>
-            </article>
-
-            <!-- PROJET 3 : SÉCURITÉ ROUTIÈRE EMBARQUÉE -->
-            <article class="project-card">
-                <div class="project-media">
-                    <img src="assets/detection-fatigue.png" alt="Système embarqué de détection de fatigue">
-                </div>
-                <div class="project-info">
-                    <h3>Système Intelligent Embarqué de Détection de Fatigue</h3>
-                    <div class="tags">
-                        <span>ESP32-S3</span>
-                        <span>Capteurs IoT</span>
-                        <span>Traitement du Signal</span>
-                        <span>Proteus</span>
-                    </div>
-                    <p><strong>Problématique :</strong> Prévenir les risques d'accidents liés à la somnolence au volant via une surveillance embarquée non intrusive.</p>
-                    <p><strong>Contribution :</strong> Conception de l'architecture matérielle, conditionnement des signaux capteurs et programmation embarquée.</p>
-                    <p><strong>Résultat :</strong> Prototype fonctionnel d'alerte temps réel dédié à la sécurité routière.</p>
-                </div>
-            </article>
-
-           <!-- PROJET 4 : SIMULATION & CNC -->
-            <article class="project-card">
-                <div class="project-media">
-                    <img src="assets/cnc-simulink.jpg" alt="Simulation d'usinage CNC et programmation paramétrique en Code G">
-                </div>
-                <div class="project-info">
-                    <h3>Simulation & Commande Numérique (CNC)</h3>
-                    <div class="tags">
-                        <span>CNC Simulator</span>
-                        <span>Code G Paramétrique</span>
-                        <span>MATLAB/Simulink</span>
-                        <span>CATIA V5</span>
-                    </div>
-                    <p><strong>Problématique :</strong> Valider les trajectoires d'usinage, les paramètres de coupe et les architectures numériques avant mise en production.</p>
-                    <p><strong>Contribution :</strong> Conception CAO sous CATIA V5, modélisation sous MATLAB/Simulink et développement de programmes d'usinage en Code G paramétrique (variables, boucles conditionnelles <code>IF/GOTO</code>, interpolation circulaire <code>G2</code> et compensation d'outil <code>G41</code>) sur simulateur CNC.</p>
-                    <p><strong>Résultat :</strong> Validation complète des cycles d'usinage en 3D et prévention des collisions avant fabrication.</p>
-                </div>
-            </article>
-
-        </section>
-
-        <section class="skills">
-            <h2>Compétences Techniques & Méthodologiques</h2>
             <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Modélisation & Simulation</h3>
-                    <ul>
-                        <li>MATLAB / Simulink & Simscape</li>
-                        <li>Approche Bond Graph</li>
-                        <li>CATIA V5 (CAO) & CNC Simulator</li>
-                        <li>Proteus (Simulation électronique)</li>
-                    </ul>
+                <div class="skill-box">
+                    <h3>Maintenance 4.0 &amp; Diagnostic</h3>
+                    <p>Maintenance préventive et prédictive, analyse vibratoire et thermique, modélisation Bond Graph pour la détection de défauts, gestion de la maintenance (GMAO).</p>
+                    <div class="tags">
+                        <span>AMDEC</span>
+                        <span>Bond Graph</span>
+                        <span>Diagnostic</span>
+                        <span>Fiabilité</span>
+                    </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3>Automatique & Embarqué</h3>
-                    <ul>
-                        <li>Diagnostic & Tolérance aux fautes</li>
-                        <li>Régulation & Contrôle temps réel</li>
-                        <li>Microcontrôleurs (ESP32-S3, PIC)</li>
-                        <li>Programmation C / C++ embarqué & Code G</li>
-                    </ul>
+                <div class="skill-box">
+                    <h3>Production &amp; Automatisation</h3>
+                    <p>Conception et pilotage de systèmes automatisés, programmation d'automates (API), supervision IoT en temps réel et optimisation des temps de cycle.</p>
+                    <div class="tags">
+                        <span>API / Siemens</span>
+                        <span>IoT &amp; Capteurs</span>
+                        <span>Arduino / ESP32</span>
+                        <span>Lean</span>
+                    </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3>Qualité & Maintenance 4.0</h3>
-                    <ul>
-                        <li>Management de la qualité (Norme ISO 9001)</li>
-                        <li>Outils qualité (AMDEC, Ishikawa, 5S, Pareto)</li>
-                        <li>Maîtrise Statistique des Procédés (MSP / SPC)</li>
-                        <li>Maintenance prédictive & Amélioration continue (Lean / PDCA)</li>
-                    </ul>
+                <div class="skill-box">
+                    <h3>Qualité &amp; Amélioration Continue</h3>
+                    <p>Contrôle qualité par vision artificielle, réduction des non-conformités, rédaction de procédures techniques standards et résolution méthodique de problèmes.</p>
+                    <div class="tags">
+                        <span>Vision / OpenCV</span>
+                        <span>5S / Kaizen</span>
+                        <span>Traçabilité</span>
+                        <span>ISO 9001</span>
+                    </div>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Communication &amp; Leadership</h3>
+                    <p>Vulgarisation technique et formation d'équipes, gestion du stress en environnement exigeant, coordination associative et gestion rigoureuse des priorités.</p>
+                    <div class="tags">
+                        <span>Pédagogie</span>
+                        <span>Relation Client</span>
+                        <span>Travail d'équipe</span>
+                        <span>Agilité</span>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="formation">
-            <h2>Formation</h2>
-            <div class="skill-box">
-                <h4>2021 – Présent | Cycle d'Ingénieur en Mécatronique (GM3) — ENSA Tétouan, Maroc</h4>
-                <p>Spécialisation : Systèmes automatisés, modélisation de systèmes complexes, informatique industrielle, supervision SCADA et maintenance 4.0.</p>
+        <!-- =========================================================
+             SECTION 2 : EXPÉRIENCES PROFESSIONNELLES (AVEC IMAGES)
+             ========================================================= -->
+        <section id="experiences" class="section">
+            <div class="section-header">
+                <span class="section-tag tag-amber">Parcours Terrain &amp; R&amp;D</span>
+                <h2>Expériences Professionnelles</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Expérience Ingénierie 1 -->
+                <article class="card card-stage">
+                    <div class="card-media">
+                        <img src="assets/stage-pfa.jpg" alt="Stage PFA Smart Automation Technologies">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">Smart Automation Technologies (Tanger) • Juil. – Août 2026</div>
+                        <h3>Stage PFA — Modélisation &amp; Diagnostic des Systèmes Électromécaniques</h3>
+                        <div class="tags">
+                            <span>Maintenance Prédictive</span>
+                            <span>Modélisation Multi-Physique</span>
+                            <span>Diagnostic</span>
+                            <span>Automatisation</span>
+                        </div>
+                        <p><strong>Contexte :</strong> Fiabilisation des équipements industriels automatisés et anticipation des défaillances critiques.</p>
+                        <p><strong>Contribution :</strong> Modélisation énergétique des chaînes électromécaniques, analyse des modes de défaillance et proposition d'indicateurs de suivi.</p>
+                        <p><strong>Résultat :</strong> Détection précoce des anomalies de fonctionnement et amélioration de la disponibilité machine.</p>
+                        <div class="card-footer">
+                            <a href="assets/Attestation_Stage_PFA_Smart_Automation.pdf" target="_blank" class="btn btn-primary">Voir l'attestation</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Expérience Ingénierie 2 -->
+                <article class="card card-stage">
+                    <div class="card-media">
+                        <img src="assets/detection-fatigue.jpg" alt="Système Intelligent de Détection de Fatigue">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">Salle Mécatronique — ENSA Tétouan • Encadrant : Pr. OULAD BEN ZAROUALA Rachad</div>
+                        <h3>Système Intelligent de Détection de Fatigue &amp; Somnolence</h3>
+                        <div class="tags">
+                            <span>Vision par Ordinateur</span>
+                            <span>Python / OpenCV</span>
+                            <span>Systèmes Embarqués</span>
+                            <span>Sécurité &amp; Qualité</span>
+                        </div>
+                        <p><strong>Contexte :</strong> Travaux pratiques de R&amp;D appliqués à la prévention des risques opérateurs et conducteurs.</p>
+                        <p><strong>Contribution :</strong> Conception et implémentation d'un algorithme embarqué d'analyse faciale en temps réel (suivi oculaire et clignements).</p>
+                        <p><strong>Résultat :</strong> Déclenchement instantané d'alertes sonores et visuelles dès les premiers signes de baisse de vigilance.</p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Expériences complémentaires (Soft Skills en action) -->
+            <div class="sub-experiences">
+                <h3 class="sub-title">Expériences Complémentaires &amp; Relationnelles</h3>
+                <div class="certs-grid">
+                    <article class="cert-card" style="border-left-color: var(--accent-amber);">
+                        <div class="cert-icon" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber);">☎</div>
+                        <div class="cert-info">
+                            <h3>Téléconseiller — Relation Client</h3>
+                            <p class="cert-issuer">Gestion d'appels entrants/sortants, écoute active, résolution rapide de problématiques sous pression et communication professionnelle.</p>
+                        </div>
+                    </article>
+
+                    <article class="cert-card" style="border-left-color: var(--accent-amber);">
+                        <div class="cert-icon" style="background: rgba(245, 158, 11, 0.15); color: var(--accent-amber);">✎</div>
+                        <div class="cert-info">
+                            <h3>Enseignant en Cours Particuliers (Primaire – Collège)</h3>
+                            <p class="cert-issuer">Accompagnement scolaire en mathématiques et sciences : pédagogie, vulgarisation de notions techniques, patience et suivi personnalisé.</p>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
+
+        <!-- =========================================================
+             SECTION 3 : PROJETS D'INGÉNIERIE (AVEC VOS IMAGES)
+             ========================================================= -->
+        <section id="projets" class="section">
+            <div class="section-header">
+                <span class="section-tag tag-blue">Réalisations Techniques</span>
+                <h2>Projets &amp; Études de Cas</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Projet 1 : CNC Simulink -->
+                <article class="card card-project">
+                    <div class="card-media">
+                        <img src="assets/cnc-simulink.jpg" alt="Modélisation et Commande d'un Axe CNC sous MATLAB/Simulink">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">Production, Automatisation &amp; Maintenance</div>
+                        <h3>Modélisation Multi-Physique et Commande d'un Axe CNC sous Simulink</h3>
+                        <div class="tags">
+                            <span>MATLAB / Simulink</span>
+                            <span>Asservissement PID</span>
+                            <span>Cinématique CNC</span>
+                            <span>Fiabilité</span>
+                        </div>
+                        <p><strong>Objectif :</strong> Modéliser la chaîne cinématique d'un axe de machine-outil à commande numérique (CNC) et optimiser sa précision de positionnement.</p>
+                        <p><strong>Apport :</strong> Synthèse d'un correcteur robuste réduisant l'erreur de traînage, limitant l'usure mécanique et garantissant la qualité dimensionnelle d'usinage.</p>
+                    </div>
+                </article>
+
+                <!-- Projet 2 : LKA ADAS -->
+                <article class="card card-project">
+                    <div class="card-media">
+                        <img src="assets/lka-adas.png" alt="Système d'Aide au Maintien de Voie (LKA - ADAS)">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-meta">Vision Artificielle &amp; Contrôle Qualité</div>
+                        <h3>Système d'Aide au Maintien de Voie (LKA — ADAS)</h3>
+                        <div class="tags">
+                            <span>Python / OpenCV</span>
+                            <span>Traitement d'Image</span>
+                            <span>Systèmes Embarqués</span>
+                            <span>Temps Réel</span>
+                        </div>
+                        <p><strong>Objectif :</strong> Développer un algorithme de vision par ordinateur capable de détecter les marquages au sol et de calculer l'écart de trajectoire en temps réel.</p>
+                        <p><strong>Apport :</strong> Extraction robuste des lignes de voie par filtrage et transformée de Hough, transposable au contrôle qualité visuel sur ligne automatisée.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 4 : CERTIFICATS & ATTESTATIONS (4 DOCUMENTS)
+             ========================================================= -->
+        <section id="certificats" class="section">
+            <div class="section-header">
+                <span class="section-tag tag-green">Accréditations Vérifiables</span>
+                <h2>Certificats &amp; Attestations</h2>
+            </div>
+
+            <div class="certs-grid">
+                <article class="cert-card">
+                    <div class="cert-icon">✓</div>
+                    <div class="cert-info">
+                        <h3>Attestation de Stage PFA — Modélisation &amp; Diagnostic</h3>
+                        <p class="cert-issuer">Smart Automation Technologies (Tanger) • Juil. – Août 2026</p>
+                        <a href="assets/Attestation_Stage_PFA_Smart_Automation.pdf" target="_blank" class="cert-link">Voir l'attestation →</a>
+                    </div>
+                </article>
+
+                <article class="cert-card">
+                    <div class="cert-icon">✓</div>
+                    <div class="cert-info">
+                        <h3>Formation Pratique sur l'Arduino (8h)</h3>
+                        <p class="cert-issuer">Club Mécatronique • ENSA Tétouan</p>
+                        <a href="assets/Certificat_Formation_Arduino_ENSA_Tetouan.pdf" target="_blank" class="cert-link">Voir le certificat →</a>
+                    </div>
+                </article>
+
+                <article class="cert-card">
+                    <div class="cert-icon">✓</div>
+                    <div class="cert-info">
+                        <h3>Gestion du Temps et des Priorités</h3>
+                        <p class="cert-issuer">African Union Students' Council (AUSC) • 2019</p>
+                        <a href="assets/Certificat_Gestion_Temps_Priorites_AUSC.pdf" target="_blank" class="cert-link">Voir le certificat →</a>
+                    </div>
+                </article>
+
+                <article class="cert-card">
+                    <div class="cert-icon">✓</div>
+                    <div class="cert-info">
+                        <h3>Attestation de Reconnaissance — Chargé à la Communication</h3>
+                        <p class="cert-issuer">ANEM Section Tétouan • 2023–2024</p>
+                        <a href="assets/Attestation_Reconnaissance_ANEM_Tetouan.pdf" target="_blank" class="cert-link">Voir l'attestation →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 5 : FORMATION
+             ========================================================= -->
+        <section id="formation" class="section">
+            <div class="section-header">
+                <span class="section-tag tag-blue">Cursus Ingénieur</span>
+                <h2>Formation Académique</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline">
+                <div class="timeline-item timeline-with-photo">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - 2027 (En cours)</span>
+                        <h3>Cycle d'Ingénieur d'État — Filière Génie Mécatronique</h3>
+                        <h4>École Nationale des Sciences Appliquées (ENSA) • Tétouan</h4>
+                        <p>
+                            Spécialisation polyvalente : <strong>Maintenance industrielle 4.0</strong> et diagnostic de défaillances, <strong>pilotage et automatisation des systèmes de production</strong>, maîtrise de la <strong>qualité industrielle</strong>, modélisation Bond Graph et systèmes embarqués.
+                        </p>
+                    </div>
+                    <div class="timeline-photo">
+                        <img src="assets/formation-ensa.jpg" alt="Maman Lawali ABDOU OUSMANE - Génie Mécatronique ENSA Tétouan" onerror="this.parentElement.style.display='none'">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- =========================================================
+             SECTION 6 : CONTACT
+             ========================================================= -->
+        <section id="contact" class="section">
+            <div class="section-header">
+                <span class="section-tag tag-blue">Disponibilité Stage PFE</span>
+                <h2>Me Contacter</h2>
+            </div>
+
+            <div class="certs-grid">
+                <article class="cert-card" style="border-left-color: var(--accent-blue);">
+                    <div class="cert-icon" style="background: rgba(14, 165, 233, 0.15); color: var(--accent-blue);">✉</div>
+                    <div class="cert-info">
+                        <h3>Adresse E-mail</h3>
+                        <p class="cert-issuer">abdou.ousmane.mecatronique@gmail.com</p>
+                        <a href="mailto:abdou.ousmane.mecatronique@gmail.com" class="cert-link" style="color: var(--accent-blue);">Envoyer un message →</a>
+                    </div>
+                </article>
+
+                <article class="cert-card" style="border-left-color: #25d366;">
+                    <div class="cert-icon" style="background: rgba(37, 211, 102, 0.15); color: #25d366;">✆</div>
+                    <div class="cert-info">
+                        <h3>WhatsApp &amp; Téléphone</h3>
+                        <p class="cert-issuer">+212 6 14 80 84 06</p>
+                        <a href="https://wa.me/212614808406?text=Bonjour%20Maman%20Lawali%2C%20j'ai%20consult%C3%A9%20votre%20portfolio." target="_blank" class="cert-link" style="color: #25d366;">Discuter sur WhatsApp →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
     </main>
 
-    <footer>
-        <p>© 2026 Maman Lawali ABDOU OUSMANE • Tétouan, Maroc • abdou.ousmane.mecatronique@gmail.com</p>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Maman Lawali ABDOU OUSMANE • Ingénierie Mécatronique (Maintenance, Production &amp; Qualité) • <a href="https://www.linkedin.com/in/maman-lawali-abdou-ousmane-076a48415" target="_blank">LinkedIn</a></p>
+        </div>
     </footer>
 
 </body>
